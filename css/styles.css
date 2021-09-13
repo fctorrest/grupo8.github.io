@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --padding-contenedor: 100px 0;
+    --color-title: #FFF;
+}
+
+body{
+    font-family: "Roboto";
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-contenedor);
+}
+
 .encabezado::before{
     content: "";
     position: absolute;
@@ -8,4 +27,82 @@
     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/foto1@2x.png');
     background-size: cover;
     z-index: -1;
+}
+
+.encabezado{
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color:#FFF;
+}
+
+.nav{
+    --padding-contenedor: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_enlace{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+
+.encabezado_contenedor.contenedor{
+    padding-top: 0rem;
+}
+
+.nav_enlaces{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav_menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav_img{
+    display: block;
+    width: 30px;
+}
+
+.nav_cerrar{
+    display: var(--show, none);
+}
+
+.redes{
+    align-content: center;
+    margin-left: auto;
+}
+
+.encabezado_contenedor{
+    max-width: 1000px;
+    display: grid;
+    --padding-container: 0;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.logo_central{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
 }
