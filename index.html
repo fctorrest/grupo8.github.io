@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Inicio - Sal&Salsa</title>
 </head>
 <body>
@@ -31,16 +32,15 @@
                 </div>
             </div>
         </nav>
-        <!--Redes sociales-->
+        <!--Redes sociales
 
-        <nav class="flex-column float-end bg-secondary">
+        <nav class="flex-column float-sm-end bg-secondary position-absolute top-50 end-0 navbar-expand-lg">
             <ul class="list-unstyled text-center">            
                 <li class="nav-item"><a class="nav-link" href="#"><img src="./images/ico-facebook@2x.png" alt=""></a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><img src="./images/ico-twitter@2x.png" alt=""></a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><img src="./images/ico-youtube@2x.png" alt=""></a></li>
             </ul>
-
-        </nav>
+        </nav> -->
     </header>
 
     <main>
@@ -49,31 +49,24 @@
         <div class="carousel slide carousel-fade" id="mainSlider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/foto1@2x.png" alt="" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/foto1@2x.png" alt="" >
+                    <div class="carousel-caption">
                         <img src="./images/logo@2x.png" alt="" class="pt-5">
                         <h2 class="display-2">Sabores que exaltan tus sentidos.</h2>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/foto2@2x.png" alt="" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/foto2@2x.png" alt="" >
+                    <div class="carousel-caption">
                         <img src="./images/logo@2x.png" alt="" class="pt-5"> 
                         <h2 class="display-2">Sabores que exaltan tus sentidos.</h2>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/foto3@2x.png" alt="" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/foto3@2x.png" alt="">
+                    <div class="carousel-caption">
                         <img src="./images/logo@2x.png" alt="" class="pt-5">
                         <h2 class="display-2">Sabores que exaltan tus sentidos.</h2>
-                      </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/foto4@2x.png" alt="" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block">
-                        <img src="./images/logo@2x.png" alt="" class="pt-5">
-                        <h2 class="display-2">Sabores que exaltan tus sentidos</h1>
                       </div>
                 </div>
             </div>
@@ -88,18 +81,171 @@
         </div>
 
         <div id="propuesta">
-            <div class="container-md p-5"></div>
-            <div class="row pt-5">
-                <h1 class="text-center pb-5 pt-5 h1">Nuestra propuesta</h1>
+            <div class="container-fluid text-white" style="background-image: url(./images/foto2@2x.png); height: 100vh;">
+            <div class="container">
+                <div class="row pt-5">
+                    <p class="text-center pb-5 pt-5 h1">Nuestra propuesta</p>
+                </div>
+                <div class="row">
+                    <p class="text-center pb-5 pt-5 h2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum officia qui perferendis odio, numquam accusantium, delectus veritatis earum doloremque rem quas quaerat iusto! Corrupti laboriosam rerum doloribus molestias quis.</p>
+                </div>
             </div>
-            <div class="row">
-                <h2 class="text-center pb-5 pt-5 h2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum officia qui perferendis odio, numquam accusantium, delectus veritatis earum doloremque rem quas quaerat iusto! Corrupti laboriosam rerum doloribus molestias quis.</h2>
+        </div>
+        </div>
+
+        <div id="recomendados">
+            <div class="container-fluid" style="height: 100vh;">
+                <div class="container pb-5 pt-5">
+                    <div class="row pt-5 pb-5">
+                        <p class="h1">Los recomendados del chef</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="container bg-primary">
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                      <div class="p-3 border bg-light"><img src="./images/menu1@2x.png" class="img-fluid" alt=""></div>
+                                    </div>
+                                    <div class="col-6">
+                                      <div class="p-3 border bg-light"><img src="./images/menu2@2x.png" class="img-fluid" alt=""></div>
+                                    </div>
+                                    <div class="col-6">
+                                      <div class="p-3 border bg-light"><img src="./images/menu3@2x.png" class="img-fluid" alt=""></div>
+                                    </div>
+                                    <div class="col-6">
+                                      <div class="p-3 border bg-light"><img src="./images/menu4@2x.png" class="img-fluid" alt=""></div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-sm text-center">
+                            <img src="./images/menu@2x.png" alt="" class="img-fluid">
+                            <button  class="btn btn-secondary w-75 text-white">Consultar el menú</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Organizamos-->
+
+        <div id="organizamos">
+            <div class="container-fluid text-center" style="background-image: url(./images/foto3@2x.png); height: 70vh;">
+                <div class="container-sm text-white">
+                    <div class="row text-start pt-5 pb-5">
+                        <p class="h1 text-white">Organizamos tu evento</p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img src="./images/icono1@2x.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <img src="./images/icono2@2x.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <img src="./images/icono3@2x.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <img src="./images/icono4@2x.png" alt="" class="img-fluid">
+                        </div>
+                    <div class="row pt-5">
+                         <div class="col">
+                            <p class="h2 text-white">Fiestas temáticas</p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe optio quam exercitationem? Velit, soluta quasi. Pariatur sit dicta qui sed optio totam dolorum beatae alias doloremque dolore! Cum, quia laborum.
+                        </div>
+                        <div class="col">
+                             <p class="h2 text-white">Matrimonios</p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe optio quam exercitationem? Velit, soluta quasi. Pariatur sit dicta qui sed optio totam dolorum beatae alias doloremque dolore! Cum, quia laborum.
+                        </div>
+                        <div class="col">
+                            <p class="h2 text-white">Cenas empresariales</p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic in explicabo voluptates ipsam repellendus debitis iste dicta quos. Libero quod architecto hic provident, facere eius nulla velit maiores quaerat.
+                        </div>
+                        <div class="col">
+                            <p class="h2 text-white">Cumpleaños</p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur corrupti qui provident perspiciatis veniam sunt velit quia autem impedit saepe, repellat similique voluptatem. Ratione qui a neque ad tempore!
+                         </div>  
+                        </div>
+                        <div class="row pt-5">
+                            <div class="col">
+                                <a href="#"><img src="./images/plus.svg" alt=""></a>
+                            </div>
+                            <div class="col">
+                                <a href="#"><img src="./images/plus.svg" alt=""></a>
+                            </div>
+                            <div class="col">
+                                <a href="#"><img src="./images/plus.svg" alt=""></a>
+                            </div>
+                            <div class="col">
+                                <a href="#"><img src="./images/plus.svg" alt=""></a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Carrusel final-->
+    <!--        <div class="container-fluid" style="height: 30vh;">
+                <div class="carousel slide" id="secondCarousel" data-bs-ride="carousel">
+                    <div class="container carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="./images/testimonio1@2x.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt praesentium quidem fuga. Non odit, quaerat illo, alias dolorem cum incidunt nesciunt placeat optio, dolores officiis quod iure fuga totam asperiores. 
+                                        <br>Nombre Apellido
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" role="button" href="#secondCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" role="button" href="#secondCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>-->
+                    </div>
+                </div>
             </div>
 
         </div>
         
     
     </main>
+
+    <!--Footer-->
+    <footer class="text-light bg-primary pt-5 pb-5" id="pageFooter">
+        <div class="container">
+            <nav class="row align-top">
+                <div class="col-sm align-bottom">
+                        <img src="images/logo@2x.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm">
+                    <div class="row align-top">
+                        <a href="./mapa.html" class="nav-link text-light">MAPA DEL SITIO</a></div>
+                        <div class="row pt-3">
+                            <p>Restaurante Sal y Salsa Ltda <br> Calle 19 No.7 - 30, Bogotá <br> reservas@salysalsa.com <br> 31232525321</p>
+                            <p>&copy Copyright 2020</p></div>
+                </div>
+                
+                <div class="col-sm ">
+                    <a href="./contacto.html" class="nav-link text-light">CONTÁCTANOS</a></div>
+                <div class="col-sm ">
+                    <a href="#" class="nav-link text-light">RESERVAS</a></div>
+                <div class="col-sm align-bottom">
+                    <!--Mapas de google-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.233853015086!2d-74.07245847077579!3d4.605586636565395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a1ed5e8c65%3A0xa01f9828076bdb93!2sCl.%2019%20%237-2%20a%207-98%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1631656301345!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    
     <script src="libs/bootstrap/dist/js/bootstrap.min.js" ></script>
 </body>
 </html>
